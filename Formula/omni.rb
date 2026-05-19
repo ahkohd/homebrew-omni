@@ -1,24 +1,24 @@
 class Omni < Formula
   desc "Real-time CLI transcription tool"
   homepage "https://github.com/ahkohd/omni"
-  version "0.1.26"
+  version "0.1.27"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahkohd/omni/releases/download/v0.1.26/omni-aarch64-apple-darwin.tar.gz"
-      sha256 "c463e81f7c181ab31d89293cd78f103199f67d0afa2339cda8c60b1d60bb1ba2"
+      url "https://github.com/ahkohd/omni/releases/download/v0.1.27/omni-aarch64-apple-darwin.tar.gz"
+      sha256 "d9f1f7e055bb8b0fa54fb8713eef715524289f254812e5d041d65a386f61a2f5"
     end
     on_intel do
-      url "https://github.com/ahkohd/omni/releases/download/v0.1.26/omni-x86_64-apple-darwin.tar.gz"
-      sha256 "f7c6761e34d9279414cd5280ca6c521201023403e694d64dce50b71cd8c17001"
+      url "https://github.com/ahkohd/omni/releases/download/v0.1.27/omni-x86_64-apple-darwin.tar.gz"
+      sha256 "58be1ea39b8d1b4e42a93eb95b3ca5512a48b65c5575490236452a046d7d31c2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ahkohd/omni/releases/download/v0.1.26/omni-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "76c5cf67667223cf1b805c249d2e619cb0fbc7f3673f56eda1a18053639d2ebb"
+      url "https://github.com/ahkohd/omni/releases/download/v0.1.27/omni-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bec8c78480a652dd7a73c987a3b8123cf80b787127dbbb636eebeb18bcca1932"
     end
   end
 
