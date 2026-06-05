@@ -1,24 +1,24 @@
 class Omni < Formula
   desc "Real-time CLI transcription tool"
   homepage "https://github.com/ahkohd/omni"
-  version "0.1.37"
+  version "0.1.38"
   license "PolyForm-Shield-1.0.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahkohd/omni/releases/download/v0.1.37/omni-aarch64-apple-darwin.tar.gz"
-      sha256 "2f64c1280724593a53f68d417c3c56a5396b6c709dd7baf7d6ee312cf0bff6bd"
+      url "https://github.com/ahkohd/omni/releases/download/v0.1.38/omni-aarch64-apple-darwin.tar.gz"
+      sha256 "37db98a5d19c3ecffc33b85aa5698539f1686b071f6d3c2bb84056796235f388"
     end
     on_intel do
-      url "https://github.com/ahkohd/omni/releases/download/v0.1.37/omni-x86_64-apple-darwin.tar.gz"
-      sha256 "c9dd007a897f129e1665a6098e1a0213d17c9dd21b460707ac94558f74e9afd9"
+      url "https://github.com/ahkohd/omni/releases/download/v0.1.38/omni-x86_64-apple-darwin.tar.gz"
+      sha256 "fa28b8ef3efab8d0e0b5af2ace921726d4882f1947ce836dff111341d76a3208"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ahkohd/omni/releases/download/v0.1.37/omni-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a662e3d3a8e7574a289f9bfa216f328418190ea428e919fe068f8dae59d64661"
+      url "https://github.com/ahkohd/omni/releases/download/v0.1.38/omni-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3b9458931e62a31c26e890130530212971d0cd7bd5565d26aed8589ecefb93fd"
     end
   end
 
